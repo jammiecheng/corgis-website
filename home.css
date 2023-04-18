@@ -1,0 +1,25 @@
+main{
+    background-color: #ec5310;
+    overflow: hidden;
+}
+.title{
+    color: #E4DFDA;
+    font-size: 8em;
+    padding-left: 15px;
+}
+.circle{
+    background-color: #E4DFDA;
+    width: 840px;
+    height: 840px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    position: relative;
+    top: -40%;
+    left: 60%;
+}
+.circle a{
+    color: black;
+}

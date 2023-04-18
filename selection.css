@@ -1,0 +1,41 @@
+main{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productSection{
+    width: 800px;
+    max-height: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brandTitle{
+    text-align: center;
+    color: #000;
+}
+.splitLine{
+    width: 800px;
+    height: 0px;
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+.productLine{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.productTitle{
+    width: 200px;
+}
+.productContent{
+    color: #000;
+    margin: 20px 0;
+}

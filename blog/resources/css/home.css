@@ -1,0 +1,51 @@
+.home{
+    background-color: #ec5310;
+    overflow: hidden;
+}
+.title{
+    color: #E4DFDA;
+    font-size: 8em;
+    padding-left: 15px;
+    text-shadow: 2px 2px 5px #888;
+    position: relative;
+    z-index: 999;
+}
+.circle{
+    background-color: #E4DFDA;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    position: relative;
+    top: -40%;
+    left: 60%;
+}
+.circle a{
+    color: black;
+}
+@media (max-width: 1200px) {
+    .title{
+        font-size: 100px;
+    }
+    .circle{
+        width: 700px;
+        height: 700px;
+        top: -10%;
+        left: 30%;
+    }
+}
+@media (max-width: 550px) {
+    .title{
+        font-size: 80px;
+    }
+    .circle{
+        width: 500px;
+        height: 500px;
+        font-size: 30px;
+        top: 5%;
+        left: 0;
+    }
+}

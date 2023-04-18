@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 40%;
+    margin: 30px;
+}
+input , button{
+    width: 100%;
+    margin: 5px 0;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 0 ;
+    border-radius: 20px;
+}
+legend{
+    text-align: center;
+}
+button{
+    font-size: large;
+    cursor: pointer;
+}
+.media{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media img{
+    width: 20px;
+    margin: 5px;
+}
+.link-text{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.link-text a{
+    color: navy;
+}
